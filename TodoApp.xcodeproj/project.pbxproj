@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10510CA22BCDD3B00A61B30 /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10510C922BCDD3B00A61B30 /* CheckListItem.swift */; };
+		F10510CC22BCE91300A61B30 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10510CB22BCE91300A61B30 /* TodoList.swift */; };
 		F1477D6622AA7AC900CBE473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1477D6522AA7AC900CBE473 /* AppDelegate.swift */; };
 		F1477D6822AA7AC900CBE473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1477D6722AA7AC900CBE473 /* ViewController.swift */; };
 		F1477D6B22AA7AC900CBE473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1477D6922AA7AC900CBE473 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F10510C922BCDD3B00A61B30 /* CheckListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
+		F10510CB22BCE91300A61B30 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		F1477D6222AA7AC900CBE473 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1477D6522AA7AC900CBE473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1477D6722AA7AC900CBE473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		F1477D6422AA7AC900CBE473 /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				F10510C922BCDD3B00A61B30 /* CheckListItem.swift */,
+				F10510CB22BCE91300A61B30 /* TodoList.swift */,
 				F1477D6522AA7AC900CBE473 /* AppDelegate.swift */,
 				F1477D6722AA7AC900CBE473 /* ViewController.swift */,
 				F1477D6922AA7AC900CBE473 /* Main.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10510CA22BCDD3B00A61B30 /* CheckListItem.swift in Sources */,
 				F1477D6822AA7AC900CBE473 /* ViewController.swift in Sources */,
 				F1477D6622AA7AC900CBE473 /* AppDelegate.swift in Sources */,
+				F10510CC22BCE91300A61B30 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
